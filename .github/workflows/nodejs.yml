@@ -19,7 +19,7 @@ jobs:
         run: npm run prettier
       - name: test (jest)
         env:
-         CI: trues
+         CI: true
         run: npm run test
       - name: build 
         run: npm run build 
